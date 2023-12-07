@@ -11,18 +11,19 @@
     <img href="https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/06/clouds-featured.png?fit=4000%2C2000&ssl=1" />
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div class="weather-app-data">
+        <div id="city" class="weather-app-data">
           <div>
             <h1 class="weather-app-city">Paris</h1>
             <p class="weather-app-details">
@@ -51,5 +52,6 @@
         >hosted on Netlify</a
       >
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>
