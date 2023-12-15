@@ -51,6 +51,7 @@ function handleSearchSubmit(event) {
 
   searchCity(searchInput.value);
 }
+
 function displayForecast() {
   let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
